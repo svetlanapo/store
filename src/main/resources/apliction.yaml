@@ -1,0 +1,11 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: validate
+      show-sql: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/store?serverTimezone=UTC
+    username: sql
+    password: password
+  flyway:
+    baseline-on-migrate: true
